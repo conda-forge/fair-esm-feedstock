@@ -1,5 +1,5 @@
 {% set name = "fair-esm" %}
-{% set version = "0.5.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fair-esm-{{ version }}.tar.gz
-  sha256: 74a287303f8f04ea89e5dcb2a4be1f1a3d85a183a6bb7f60a3225bee381102c1
+  sha256: bb33101164bc9e23af1d66430851d5378ae257fa67be5ffd71511b40c79f4062
 
 build:
   noarch: python
