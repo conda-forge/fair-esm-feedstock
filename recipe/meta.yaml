@@ -22,6 +22,9 @@ requirements:
     - python >=3.6
     - pytorch >=1.5
     - biotite
+    - pytorch_geometric
+    - numpy
+    - torch-scatter
 
 test:
   imports:
